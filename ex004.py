@@ -1,0 +1,6 @@
+algo: str = input('Digite algo:')
+print('O tipo de primitivo da variável é ', type(algo))
+print('É um número? ', algo.isnumeric())
+print('É alfabético?', algo.isalpha())
+print('É decimal?', algo.isdecimal())
+print('Esta em minusculas?',algo.islower())
