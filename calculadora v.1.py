@@ -6,7 +6,7 @@ while sair == False:
   n1 = int(input('Digite o primeiro número: '))
   operador = input("Digite um operador ( + - * /) ")
   n2 = int(input('Digite um segundo número: '))
-
+  
   if operador == '+' :
     print(n1+n2)
 
@@ -19,6 +19,8 @@ while sair == False:
   if operador == '/' :
     print(n1/n2)
 
+
   teste = input('Deseja sair(s/n)? ')
   if teste == 's':
     sair = True
+    print('Obrigado por usar nossa calculadora!')
